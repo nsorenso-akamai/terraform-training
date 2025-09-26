@@ -2,10 +2,10 @@ terraform {
   required_providers {
     akamai = {
       source  = "akamai/akamai"
-      version = ">= 6.1.0"
+      version = "~> 9.0"
     }
   }
-  required_version = "~> 1.8"
+  required_version = "~> 1.12"
 }
  
 provider "akamai" {
